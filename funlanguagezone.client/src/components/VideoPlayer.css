@@ -1,0 +1,45 @@
+.lyrics-container {
+    overflow-y: scroll;
+    overflow-X: unset;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #efefef;
+    max-height: calc(100vh - 130px);
+    min-height: calc(200px);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.IconDE {
+    background-size: 50px;
+    background-position: center;
+}
+
+.IconEN {
+    background-image: url('../../public/flag_en.png');
+    background-size: 80px;
+    background-position: center;
+}
+
+.IconCZ {
+    background-image: url('../../public/flag_cz.png');
+    background-size: 50px;
+    background-position: center;
+}

@@ -1,0 +1,21 @@
+.styledCard {
+    margin: 5px 0px;
+    text-align: center;
+    font-size: small;
+}
+
+.styledCard a {
+    filter: brightness(95%);
+    text-decoration: none;
+    color: #0e0e0e;
+}
+
+
+.styledCard a:hover {
+    filter: brightness(110%);
+    text-shadow: 0px 0px 5px white;
+}
+
+.styledImg:hover {
+    border-radius: 0px !important;
+}

@@ -1,0 +1,47 @@
+.SelectedLanguageDE .nav-link {
+    background-image: url('../../public/flag_de.png');
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0)
+}
+
+.SelectedLanguageEN .nav-link {
+    background-image: url('../../public/flag_en.png');
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0)
+}
+
+.SelectedLanguageCZ .nav-link {
+    background-image: url('../../public/flag_cz.png');
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0)
+}
+
+.StyledNavbar {
+    padding: 5px;
+    margin-bottom: 20px;
+    color: #0e0e0e;
+}
+
+.StyledNavbar .nav-link {
+    margin: 5px 5px 5px 5px;
+    padding: 10px;
+    background-color: #F8F8F8;
+    border: solid 1px #F8F8F8;
+    border-radius: 5px;
+}
+
+.StyledNavbar .nav-link:hover {
+    color: black;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.StyledNavbar .dropdown-item:hover {
+    color: black;
+    border: solid 1px black;
+    border-radius: 5px;
+    background: #F8F8F8;
+}
